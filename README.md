@@ -5,8 +5,8 @@ All StyleSheet is from qt-material python lib, the export function it provided i
 so I rewrite it in qss.py and the StyleSheet exported is in the ```qss``` folder
 
 ## step1
-find theme you need in the ```qss``` fold, place this folder in the Qt project directory <br>
-each theme include a .qss file, a .qrc file and a image folder. 
+find theme you need in the ```qss``` fold, place theme folder(e.g. light_red) in the Qt project directory <br>
+each theme folder include a .qss file, a .qrc file and a image folder. 
 
 ## step2
 modify your Qt .pro file to append resource info, like this:
