@@ -10,7 +10,7 @@ each theme folder include a .qss file, a .qrc file and a image folder.
 
 ## step2
 Modify your Qt .pro file to append resource info, like this:
-```
+```python
 RESOURCES += \
     light_red/resources.qrc
 ```
@@ -34,5 +34,5 @@ int main(int argc, char *argv[])
 ```
 
 ## step4
-rebuild and run your project. <br>
+Rebuild and run your project. <br>
 if it's not material style, clean your project and rebuild it again.
