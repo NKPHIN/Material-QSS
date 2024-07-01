@@ -14,6 +14,8 @@ light = ['light_lightgreen', 'light_pink', 'light_blue',
          'light_cyan', 'light_yellow', 'light_pink_500',
          'light_blue_500', 'light_amber']
 
+# 原则上应该从资源文件中读取，但考虑到qt-material库的路径可能不同
+# 因此全部提取出来了
 icon = ['tab_close.svg', 'leftarrow.svg', 'rightarrow.svg',
         'checkbox_indeterminate_invert.svg', 'branch-end.svg', 'vline.svg',
         'radiobutton_unchecked_invert.svg', 'float.svg', 'checkbox_unchecked.svg',
