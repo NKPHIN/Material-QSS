@@ -1,5 +1,8 @@
 # MaterialQSS
-Material style QSS stylesheets for Qt C++
+Material style QSS stylesheets for Qt C++ <br>
+<br>
+All StyleSheet is from qt-material python lib, the export function it provided is not suitable for Qt C++ project  <br>
+so I rewrite it in qss.py and the StyleSheet exported is in the ```qss``` folder
 
 ## step1
 find theme you need in the ```qss``` fold, place this folder in the Qt project directory
